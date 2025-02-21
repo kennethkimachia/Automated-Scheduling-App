@@ -1,5 +1,5 @@
 import React from 'react';
-import anyone from '../utils/anyoneSdk';
+import anyone from '..';
 
 const CircuitControl = () => {
   const handleStart = () => anyone.start();

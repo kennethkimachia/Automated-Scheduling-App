@@ -1,7 +1,6 @@
-import React from 'react';
 import ScheduleForm from '../src/components/ScheduleForm';
 import ScheduleList from '../src/components/ScheduleList';
-import CircuitControl from '../src/components/CircuitControl';
+/* import CircuitControl from '../src/components/CircuitControl'; */
 function App() {
 
   return (
@@ -9,7 +8,7 @@ function App() {
       <h1>Automated Scheduling App</h1>
       <ScheduleForm />
       <ScheduleList />
-      <CircuitControl />
+      {/* <CircuitControl /> */}
     </div>
   )
 }
